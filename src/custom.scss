@@ -1,0 +1,73 @@
+// Required
+@import "../node_modules/bootstrap/scss/functions";
+
+// Default variable overrides
+//$body-bg: #000;
+//$body-color: #111;
+
+// Required
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.mc-layout {
+    width: 360mm !important;
+    height: 220mm !important;
+    padding: 20mm 10mm 10mm 10mm !important;
+    overflow: hidden;
+    border: 1px solid black;
+}
+.calendar-front-left {
+    width: 100mm !important;
+}
+.calendar-front-main {
+    width: 25mm !important;
+}
+.calendar-front-stamp {
+    width: 80pt !important;
+    height: 80pt !important;
+}
+.calendar-front-image {
+    width: 95mm !important;
+    height: 140mm !important;
+}
+.calendar-front-title-main {
+    font-family: "Zen Maru Gothic Medium";
+    font-size: 64pt;
+}
+.calendar-front-title-sub {
+    font-family: "Yuji Boku";
+    font-size: 28pt;
+}
+.calendar-front-year {
+    font-family: "Mamelon 5 Hi";
+    font-size: 32pt;
+}
+.calendar-front-year-sub {
+    font-family: "Mamelon 5 Hi";
+    font-size: 24pt;
+}
+.calendar-front-week {
+    font-family: "Zen Maru Gothic Black";
+    font-size: 18pt;
+}
+
+.calendar-front-date-cell {
+    height: 32mm !important;
+    width: 16mm !important;
+    padding: 0px !important;
+}
+.calendar-help-text {
+    font-family: "Klee One";
+    font-size: 14pt;
+}
+.calendar-date-number {
+    font-family: "Zen Maru Gothic Black";
+    font-size: 32px;
+}
+.calendar-date-text {
+    font-family: "Zen Maru Gothic";
+    font-size: 14px;
+}
+.calendar-date-symbol {
+    font-family: "851tegakizatsu";
+    font-size: 12pt;
+}
